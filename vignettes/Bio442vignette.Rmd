@@ -20,10 +20,14 @@ Biol442 is a test package for use in **Data Analysis in R**. It contains one fun
 library(Bio442)
 ```
 
-The package includes a small sample dataset, "raw_data".
+The package includes a small sample dataset:
 
 ```{r}
+# raw data included
+raw_data
 
 fastdemo <- better_split(raw_data, "[0-9.]+")
+
+fastdemo
 ```
 
